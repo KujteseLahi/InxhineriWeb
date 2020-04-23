@@ -1,0 +1,78 @@
+{
+    margin:0;
+    padding:0;
+}
+header{
+    display:flex;
+    border: 1px solid black;
+    flex-direction: row;
+    height: 50px;
+    justify-content: center;
+    justify-content: space-between;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    flex-wrap: nowrap;
+    align-items:flex-start;
+}
+.lista-djatht li{
+    color:white;
+    background-color: blue;
+    padding: 0px 10px;
+}
+.lista-djatht li:hover{
+    background-color: lightblue;
+}
+.lista-majt{
+    height: inherit;
+}
+.lista-majt li{
+    text-align: center;
+    padding-top: 13px;
+    height: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.lista-majt li:hover{
+    background-color: blue;
+}
+.icon{
+    widht: 50px;
+    height: 50px;
+
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+}
+.left-side{
+    display: flex;
+}
+.contact-us-container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    left: 10%;
+    position: relative;
+
+}
+.upper-box{
+    text-align: center;
+}
+
+.middle-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.middle-box>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.upper{
+    flex-grow: 1;
+    flex-basis: 300px;
+}
